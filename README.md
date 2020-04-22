@@ -17,4 +17,4 @@
 
 ## Demo
 
-[vue-starter-template](https://vue-starter-template.surge.sh/)
+[vue_starter_template](https://vue-starter-template.surge.sh/)
