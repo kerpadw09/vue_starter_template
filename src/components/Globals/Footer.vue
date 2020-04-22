@@ -3,7 +3,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 mx-auto text-center">
-          Footer
+          <small>
+            &copy; {{ moment().format('YYYY') }} Geekfluencer
+          </small>
         </div>
       </div>
     </div>

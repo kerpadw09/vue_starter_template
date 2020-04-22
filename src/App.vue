@@ -1,14 +1,28 @@
 <template>
-  <!-- main app -->
-  <div id="app">
-    <!-- router view -->
-    <router-view/>
+  <div>
+    <!-- HEADER START -->
+    <Header />
+    <!-- HEADER END -->
+    <!-- MAIN APP START -->
+    <div id="app">
+      <router-view/>
+    </div>
+    <!-- MAIN APP END -->
+    <!-- FOOTER START -->
+    <Footer />
+    <!-- FOOTER END -->
   </div>
 </template>
 
 <script>
+import Header from '@/components/Globals/Header'
+import Footer from '@/components/Globals/Footer'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Header,
+    Footer
+  }
 }
 </script>
 

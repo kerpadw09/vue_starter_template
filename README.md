@@ -7,6 +7,7 @@
 - babel-polyfill
 - bootstrap
 - jquery
+- moment
 - node-sass
 - popper.js
 - sass-loader
