@@ -1,0 +1,12 @@
+@import '../../variables/colors.scss';
+@import './extra_small.scss';
+@import './small.scss';
+@import './medium.scss';
+
+#footer {
+  background-color: #f5f5f5;
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
